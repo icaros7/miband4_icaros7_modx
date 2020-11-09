@@ -1,0 +1,113 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 7,
+        "Y": 52,
+        "ImageIndex": 1,
+        "ImagesCount": 3
+      },
+      "Ones": {
+        "X": 61,
+        "Y": 52,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 7,
+        "Y": 127,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 61,
+        "Y": 127,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 2,
+        "TopLeftY": 210,
+        "BottomRightX": 83,
+        "BottomRightY": 210,
+        "Alignment": "TopLeft",
+        "Spacing": 1,
+        "ImageIndex": 60,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+      "OneLine": {
+        "Number": {
+          "TopLeftX": 5,
+          "TopLeftY": 10,
+          "BottomRightX": 52,
+          "BottomRightY": 29,
+          "Alignment": "TopCenter",
+          "Spacing": 1,
+          "ImageIndex": 26,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 25
+      },
+      "TwoDigitsMonth": true,
+      "TwoDigitsDay": true
+    },
+    "WeekDay": {
+      "X": 88,
+      "Y": 7,
+      "ImageIndex": 36,
+      "ImagesCount": 21
+    }
+  },
+  "Status": {
+    "DoNotDisturb": {
+      "Coordinates": {
+        "X": 90,
+        "Y": 209,
+        "BoxWidth": 17,
+        "Alignment": "Left",
+        "Order": 1
+      },
+      "ImageIndexOn": 57
+    },
+    "Bluetooth": {
+      "Coordinates": {
+        "X": 90,
+        "Y": 225,
+        "BoxWidth": 12,
+        "Alignment": "Left",
+        "Order": 1
+      },
+      "ImageIndexOff": 59
+    },
+    "Battery": {
+      "BatteryConfig": {
+        "BoxWidth": 0,
+        "Alignment": 0,
+        "Order": 0
+      },
+      "Icon": {
+        "X": 104,
+        "Y": 213,
+        "ImageIndex": 70,
+        "ImagesCount": 9
+      }
+    }
+  }
+}
